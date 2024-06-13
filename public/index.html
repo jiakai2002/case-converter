@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Case Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+
+    <!-- FIREBASE STUFF -->
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/10.12.2/firebase-app-compat.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/10.12.2/firebase-auth-compat.js"></script>
+    <script defer src="/__/firebase/10.12.2/firebase-database-compat.js"></script>
+    <script defer src="/__/firebase/10.12.2/firebase-firestore-compat.js"></script>
+    <script defer src="/__/firebase/10.12.2/firebase-functions-compat.js"></script>
+    <script defer src="/__/firebase/10.12.2/firebase-messaging-compat.js"></script>
+    <script defer src="/__/firebase/10.12.2/firebase-storage-compat.js"></script>
+    <script defer src="/__/firebase/10.12.2/firebase-analytics-compat.js"></script>
+    <script defer src="/__/firebase/10.12.2/firebase-remote-config-compat.js"></script>
+    <script defer src="/__/firebase/10.12.2/firebase-performance-compat.js"></script>
+    <!-- 
+      initialize the SDK after all desired features are loaded, set useEmulator to false
+      to avoid connecting the SDK to running emulators.
+    -->
+    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Case Converter</h1>
+      <h2>A Smart Case Capitalization Tool</h2>
+      <textarea id="content" placeholder="Type or paste your content here."></textarea>
+      <div class="counts">
+        <span id="char_count"></span> characters •
+        <span id="word_count"></span> words •
+        <span id="line_count"></span> lines
+      </div>
+      <div class="actions">
+        <button id="sentence" class="btn">Sentence case</button> 
+        <button id="lower" class="btn">lower case</button> 
+        <button id="upper" class="btn">UPPER CASE</button> 
+        <button id="title" class="btn">Title Case</button> 
+        <button id="clear" class="btn">Clear</button>
+        <button id="copy" class="btn">Copy</button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
