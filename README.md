@@ -1,7 +1,10 @@
-# Case Converter Website
+# Case Converter Web App
 A simple web application that allows users to convert text (often emails) into various case formats: uppercase, lowercase, sentence case, and title case. This project aims to provide an easy-to-use interface for text transformation.
 ## Live Demo
 Visit the live website: [caseconvertonline.com](https://caseconvertonline.com)
+
+https://github.com/user-attachments/assets/d815cc01-5cde-44c2-b0f9-6026e589cba7
+
 ## Features
 - Convert text to **Uppercase**
 - Convert text to **Lowercase**
