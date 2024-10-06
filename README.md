@@ -11,6 +11,7 @@ Visit the live website: [caseconvertonline.com](https://caseconvertonline.com)
 - Convert text to **Lowercase**
 - Convert text to **Sentence Case**
 - Convert text to **Title Case**
+- Character, Word and Line Counts
 ## Technologies Used
 - HTML
 - CSS
